@@ -1,0 +1,22 @@
+{
+  "name": "shirts",
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "parcel src/index.html",
+    "build:web": "parcel build​​ ​​src/index.html​​​",
+    "build:reason": "bsb -make-world",
+    "start:reason": "bsb -make-world -w",
+    "clean:reason": "bsb -clean-world"
+  },
+  "source": "src/index.html",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "bs-webapi": "^0.19.1",
+    "parcel": "^2.0.1"
+  }
+}
